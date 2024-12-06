@@ -76,7 +76,7 @@ export default function Home() {
         <img className='mx-auto mt-[22px] w-[50px] h-[50px]' src={property} alt="" srcset="" />
         <p className='text-center  p-2 text-xl font-bold'>Property details
         </p>
-        <p className='text-[13px] mt-2 p-2 text-centerfont-roboto'>A real estate CRM can manage more than just your contacts. By collecting and organizing property details in your CRM, you’ll have all the information readily available whenever you (or a potential buyer) might need it.</p>
+        <p className='text-[13px] mt-2 p-2 text-center font-roboto'>A real estate CRM can manage more than just your contacts. By collecting and organizing property details in your CRM, you’ll have all the information readily available whenever you (or a potential buyer) might need it.</p>
 
         </div>
         <div className='w-[90%] bg-[#FFFFFF] h-[100%] border-2px shadow-md mx-auto md:mx-0 p-2' >
@@ -88,14 +88,14 @@ export default function Home() {
         </div>
       </div>
       <div className='  overflow-hidden  md:overflow-hidden  bg-[#F6F2EF]  mt-[200px] md:mt-0 translate-y-[-150px] '>
-        <div className='  '>
+        <div className=' font-roboto '>
           <div className=' my-4'><h1 className='text-center font-bold text-3xl'> Revolutionize Your Real Estate Business with 
        </h1>
        <h1 className='text-center text-black font-bold text-3xl'>   Smart CRM Solutions</h1>
        </div>
        </div>
         <div className='grid sm:grid-cols-1  md:grid-cols-7 my-2 w-full sm:px-0 md:px-10 mx-auto '>
-        <div className=' text-center md:order-1  '>
+        <div className=' text-center md:order-1 font-roboto '>
             <h1 className='    font-bold  text-[20px]'> Streamlining Lead 
             and SalesManagement </h1>
             <p className='text-xs text-center my-2'>Streamline your lead management and sales processes to improve efficiency, drive growth, and enhance client relationships in real estate.</p>
@@ -104,20 +104,20 @@ export default function Home() {
           <div className='md:my-auto md:mb-20 mx-auto   md:order-2   rotate-90 md:rotate-0 '><img src={right} alt="" srcset="" />
           </div>
         <div className='  md:order-3  mx-auto my-0'>
-          <img src={barChart} className='mx-auto ' alt="" srcset="" />
+          <img src={barChart} className='mx-auto font-roboto' alt="" srcset="" />
             <h1 className='text-center  font-bold   text-[20px]'> Boost Sales with CRM </h1>
             <p className='text-xs text-center my-2'>Achieve Greater Sales with CRM Integration</p>
           
           </div>
           <div className='md:my-auto md:mb-20 mx-auto   md:order-4   rotate-90 md:rotate-0'><img src={right} alt="" srcset="" /></div>
-        <div className='   md:order-5'>
+        <div className='   md:order-5 font-roboto'>
           <img className='mx-auto' src={report} alt="" />
             <h1 className='text-center mx-auto font-bold    text-[20px]'> Lead Management Made Easy</h1>
             <p className='text-xs text-center my-2'>Easily Organize and Manage Your Leads</p>
           
           </div>
           <div className=' md:my-auto md:mb-20 mx-auto   md:order-6  rotate-90 md:rotate-0  '><img src={right} alt="" srcset="" /></div>
-        <div className=' md:order-7  '>
+        <div className=' md:order-7  font-roboto'>
     <img className='mx-auto ' src={target} alt="" /> 
             <h1 className='text-center mx-auto font-bold  text-[20px] '> Streamline Your Lead Pipeline</h1>
             <p className='text-xs text-center my-2'>Efficiently Manage and Streamline Leads </p>
