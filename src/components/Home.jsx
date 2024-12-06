@@ -26,7 +26,7 @@ export default function Home() {
  
   return (
     <>
-    <div className='  text-center w-full  mt-[200px] md:mt-0 translate-y-[-150px] ' >
+    <div className='  text-center w-full  mt-[200px] md:mt-0 translate-y-[-150px] font-roboto' >
     <div className=" ">
         <img className="w-full  "  src={image} alt="Banner" />
         <div className="absolute inset-0 flex flex-col justify-center items-center px-4 md:px-0">
@@ -46,43 +46,43 @@ export default function Home() {
         </div>
       </div>
       </div>
-      <div className='w-full sm:h-[100px] md:h-[1250px] lg:h-[740px] space-y-2   mt-[200px] md:mt-0 translate-y-[-150px]  bg-[#F7F7FE] '>
+      <div className='w-full sm:h-[100px] md:h-[1250px] lg:h-[740px] space-y-2  font-roboto  mt-[200px] md:mt-0 translate-y-[-150px]  bg-[#F7F7FE] '>
         <div className=' flex'><h1 className='mx-auto md:my-10  font-bold md:text-3xl  mb-10 text-center'>Why choose Lead Management CRM for your real estate business?</h1></div>
         <div className='grid grid-cols-1   md:mx-[100px]    gap-10 md:grid-cols-2 lg:grid-cols-3 '>
         <div className='w-[90%] bg-[#FFFFFF] h-[100%] border-2px shadow-md mx-auto p-2 ' >
    <img className='mx-auto mt-[22px] w-[58px] h-[58px] ' src={project} alt="" srcset="" />
    <p className='text-center   font-bold text-xl'>Project & Team management</p>
-   <p className='p-2 mt-2 text-[13px] text-center font-semibold'>A Real Estate CRM (Customer Relationship Management) system is designed to help real estate professionals manage interactions with clients, prospects, and leads while streamlining project management processes.</p>
+   <p className='p-2 mt-2 text-[13px] text-centerfont-roboto'>A Real Estate CRM (Customer Relationship Management) system is designed to help real estate professionals manage interactions with clients, prospects, and leads while streamlining project management processes.</p>
         </div>
         
         <div className='w-[90%] bg-[#FFFFFF] border-2px shadow-md mx-auto md:mx-0 p-2' >
         <img className='mx-auto mt-[22px] w-[58px] h-[58px]' src={thirdParty} alt="" srcset="" />
         <p className='text-center  text-xl font-bold'>Third-party integrations</p>
-        <p className='p-2 mt-2 text-[13px] text-center font-semibold'>Capture Enquiries from multiple sources, run messaging campaigns and integrate with IOT devices</p>
+        <p className='p-2 mt-2 text-[13px] text-centerfont-roboto'>Capture Enquiries from multiple sources, run messaging campaigns and integrate with IOT devices</p>
         </div>
         <div className='w-[90%] bg-[#FFFFFF] h-[100%] border-2px shadow-md mx-auto md:mx-0 p-2' >
         <img className='mx-auto mt-[22px] w-[50px] h-[50px]' src={custom} alt="" srcset="" />
         <p className='text-center p-2 text-xl font-bold'>Complete Customization</p>
-        <p className='p-2 text-[13px] mt-2 text-center font-semibold'>Apply filters to view a precise Real Estate CRM Dashboard and view level based summary reports for executives and the management</p>
+        <p className='p-2 text-[13px] mt-2 text-centerfont-roboto'>Apply filters to view a precise Real Estate CRM Dashboard and view level based summary reports for executives and the management</p>
 
         </div>
         <div className='w-[90%] bg-[#FFFFFF] md:h-[100%] border-2px shadow-md mx-auto p-2' >
         <img className='mx-auto mt-[22px] w-[50px] h-[50px]' src={recycle} alt="" srcset="" />
         <p className='text-center p-2 text-xl font-bold'>Buyer and seller data input</p>
-        <p className='text-[13px] mt-2 text-center font-semibold'>Manually recording buyer or seller details cuts into time spent closing or nurturing potential buyers. With real estate CRM software, you can input your contacts’ details, communication and activity automatically.</p>
+        <p className='text-[13px] mt-2 text-centerfont-roboto'>Manually recording buyer or seller details cuts into time spent closing or nurturing potential buyers. With real estate CRM software, you can input your contacts’ details, communication and activity automatically.</p>
 
         </div>
         <div className='w-[90%] bg-[#FFFFFF] h-[100%] border-2px shadow-md  mx-auto md:mx-0 p-2' >
         <img className='mx-auto mt-[22px] w-[50px] h-[50px]' src={property} alt="" srcset="" />
         <p className='text-center  p-2 text-xl font-bold'>Property details
         </p>
-        <p className='text-[13px] mt-2 p-2 text-center font-semibold'>A real estate CRM can manage more than just your contacts. By collecting and organizing property details in your CRM, you’ll have all the information readily available whenever you (or a potential buyer) might need it.</p>
+        <p className='text-[13px] mt-2 p-2 text-centerfont-roboto'>A real estate CRM can manage more than just your contacts. By collecting and organizing property details in your CRM, you’ll have all the information readily available whenever you (or a potential buyer) might need it.</p>
 
         </div>
         <div className='w-[90%] bg-[#FFFFFF] h-[100%] border-2px shadow-md mx-auto md:mx-0 p-2' >
         <img className='mx-auto mt-[22px] w-[58px] h-[50px]' src={lead} alt="" srcset="" />
         <p className='text-center p-1 text-xl font-bold'>Lead capture & Distribution</p>
-        <p className='text-[13px] mt-2 p-2 text-center font-semibold'>Capture leads from all sources – website, Facebook, Google, lead providers, referrals – onto one platform with zero leakage.Easily organize data, track and distribute leads within and between your teams based on requirements, or other dynamic criteria.</p>
+        <p className='text-[13px] mt-2 p-2 text-centerfont-roboto'>Capture leads from all sources – website, Facebook, Google, lead providers, referrals – onto one platform with zero leakage.Easily organize data, track and distribute leads within and between your teams based on requirements, or other dynamic criteria.</p>
 
         </div>
         </div>
@@ -125,7 +125,7 @@ export default function Home() {
         </div>
       </div>
       <div className='  mx-auto md:h-[479px] bg-[#FFFFFF] grid grid-cols-1 md:grid-cols-2 mt-[200px] md:mt-0 translate-y-[-100px] '>
-        <div className='ml-5  sm:mx-auto  order-1  md:ml-40'>
+        <div className='ml-5  sm:mx-auto  order-1  md:ml-40 font-roboto'>
        <h1 className='mt-24 font-bold text-3xl '> Project & Team management</h1>
        <p className='text-sm mt-4'>A Real Estate CRM is a powerful tool designed to streamline project workflows and team collaboration. It helps real estate professionals manage client interactions, track leads, and monitor sales progress in one centralized platform. With task assignment, performance tracking, and role-based access, it ensures efficient team management. Integrated communication tools and document sharing enhance collaboration, while real-time updates keep everyone aligned.
        The system simplifies task prioritization, ensuring timely follow-ups and project delivery. Analytics and reporting features provide insights into team performance and sales trends. With mobile-friendly access, it keeps teams connected on the go. Boost productivity and client satisfaction with this all-in-one CRM solution.</p>
@@ -135,7 +135,7 @@ export default function Home() {
         </div>
       </div>
       <div className=' mt-[200px] md:mt-0 translate-y-[-100px]  md:h-[479px] bg-[#FFFFFF] grid grid-cols-1 md:grid-cols-2 md:mx-10  '>
-        <div className='ml-5   sm:mx-auto sm:order-1 md:order-2  md:ml-20 '>
+        <div className='ml-5   sm:mx-auto sm:order-1 md:order-2  md:ml-20 font-roboto '>
        <h1 className=' font-bold text-3xl '> Third-Party Integrations</h1>
        <p className='text-sm mt-4 md:mr-10'>A Real Estate CRM is a powerful tool designed to streamline project workflows and team collaboration. It helps real estate professionals manage client interactions, track leads, and monitor sales progress in one centralized platform. With task assignment, performance tracking, and role-based access, it ensures efficient team management. Integrated communication tools and document sharing enhance collaboration, while real-time updates keep everyone aligned.
        The system simplifies task prioritization, ensuring timely follow-ups and project delivery. Analytics and reporting features provide insights into team performance and sales trends. With mobile-friendly access, it keeps teams connected on the go. Boost productivity and client satisfaction with this all-in-one CRM solution.</p>
@@ -145,7 +145,7 @@ export default function Home() {
         </div>
       </div>
       <div className=' mt-[200px] md:mt-0 translate-y-[-100px]  md:h-[479px] bg-[#FFFFFF] grid grid-cols-1 md:grid-cols-2 md:mx-10   '>
-        <div className='order-1 ml-5 md:ml-40'>
+        <div className='order-1 ml-5 md:ml-40 font-roboto'>
        <h1 className=' font-bold text-3xl '> Complete Customization</h1>
        <p className='text-sm mt-4'>A Real Estate CRM offers complete customization to tailor the system to your specific business needs. Apply filters to refine data and view a precise dashboard, providing relevant insights for each user. Customize lead pipelines, task management, and user roles to align with your workflow.
 Executives and management can access level-based summary reports, allowing for a clear overview of performance metrics. This flexibility ensures the CRM adapts to your team’s operations while enhancing efficiency and providing actionable data at every level.
@@ -167,7 +167,7 @@ With real-time data syncing, all team members stay updated on client status and 
         </div>
       </div>
       <div className='  mt-[200px] md:mt-0 translate-y-[-100px] md:h-[479px] bg-[#FFFFFF] grid grid-cols-1 md:grid-cols-2 md:mx-10  '>
-        <div className='order-1 ml-5 md:ml-40'>
+        <div className='order-1 ml-5 md:ml-40 font-roboto'>
        <h1 className=' font-bold text-3xl '>Property Details</h1>
        <p className='text-sm mt-4'>A Real Estate CRM goes beyond managing contacts by efficiently organizing and storing property details. By centralizing property information, such as listings, specifications, images, and pricing, the CRM ensures all data is readily available when you or a potential buyer need it.
 This streamlined system allows agents to quickly match properties with buyer preferences, enhancing the client experience. Comprehensive property records also make it easier to track updates, manage availability, and share accurate details during client interactions.
@@ -177,8 +177,8 @@ With advanced search filters, you can easily find properties based on specific c
            <img className='w-[356px] h-[300px] m-10' src={propertyDetails} alt="" srcset="" />
         </div>
       </div>
-      <div className=' mt-[200px] md:mt-0 translate-y-[-100px]   md:h-[479px] bg-[#FFFFFF] grid grid-cols-1 md:grid-cols-2 md:mx-10 '>
-        <div className='ml-5 sm:order-1 md:order-2 '>
+      <div className=' mt-[200px] md:mt-0 translate-y-[-100px] font-roboto  md:h-[479px] bg-[#FFFFFF] grid grid-cols-1 md:grid-cols-2 md:mx-10 '>
+        <div className='ml-5 sm:order-1 md:order-2 font-roboto'>
        <h1 className=' font-bold text-3xl '>Lead Capture & Distribution</h1>
        <p className='text-sm mt-4 md:mr-10'>A Real Estate CRM simplifies lead management by capturing leads from all sources—website, Facebook, Google, lead providers, and referrals—onto a single, unified platform with zero leakage. This ensures no potential client is missed, streamlining your lead acquisition process.
 The CRM enables you to easily organize and track incoming leads, ensuring they are categorized and prioritized effectively. Leads can be automatically distributed within or between teams based on specific requirements, availability, or other dynamic criteria.
@@ -188,39 +188,39 @@ Customizable rules allow you to assign leads based on geography, expertise, or u
            <img className='w-[521px] h-[347px]  ' src={leadCap} alt="" srcset="" />
         </div>
       </div>
-      <div className=' w-full mt-[200px] md:mt-0 translate-y-[-0px]  md:h-[483px] bg-[#F6F2EF] grid grid-cols-1 md:grid-cols-2 '>
+      <div className=' w-full mt-[200px]  md:mt-0 translate-y-[-0px] font-roboto md:h-[483px] bg-[#F6F2EF] grid grid-cols-1 md:grid-cols-2 '>
         <div className='mx-auto   '>   
         <div className='  order-1  flex md:ml-24'>
       <div className='ml-10 mt-14'>
       <img className='w-[72px] h-[72px] ' src={Polygon} alt="" srcset="" /></div>
       <p className='mt-20 mx-10  text-[#F1C27C]'>Revolutionize Your Workflow</p>
       </div>
-       <div className=' md:ml-24 sm:ml-10 '>
+       <div className=' md:ml-24 sm:ml-10 font-roboto'>
        <h1 className=' font-bold text-3xl my-3 ml-4 md:ml-10 md:w-[70%] '>Transform the Way You Manage Real Estate</h1>
        <p className='text-sm mt-4 ml-4 md:ml-10 w-[80%]'>Simplify, streamline, and scale your real estate operations with our cutting-edge Real Estate Management Software. From lead tracking to property management and sales, our solution integrates all essential tools into one platform. Optimize your workflow, enhance client relationships, and make data-driven decisions to stay ahead in the competitive real estate market.</p>
        </div>
         </div>
         <div className='   order-2 my-5     ' >
-         <div className='flex ml-4 mr-2  md:ml-0'>
+         <div className='flex ml-4 mr-2  md:ml-0 font-roboto'>
          <img src={Domain} alt="" srcset="" />
          <h1 className='my-auto sm:ml-10 text-[#F1C27C]'>Simplify Real Estate Operations</h1>
        
          </div>
-         <div className='w-[90%] ml-4 mr-2  md:w-[70%] md:ml-0 '>
+         <div className='w-[90%] ml-4 mr-2  md:w-[70%] md:ml-0 font-roboto '>
          <h1 className=' font-bold text-3xl my-3 '>All-in-One Solution for Real Estate Professionals</h1>
          <p className='mt-3'>Whether you're managing properties, tracking leads, or closing deals, our software is designed to meet your every need. With advanced features like automated lead distribution, property details organization, and real-time reporting, you can focus on growing your business while we handle the rest. Experience seamless management with a user-friendly and intuitive interface tailored for real estate success.</p>
          </div>
         </div>
       </div>
-      <div className='w-full  md:h-[600px] mx-auto  bg-[#F1F1F1]   '>
+      <div className='w-full  md:h-[600px] mx-auto  bg-[#F1F1F1]  font-roboto '>
         <div className='mx-auto grid grid-cols-1 '>
           <h1 className='font-bold text-xl md:text-3xl  text-center my-20'>Subscribe Now for Expert Insights, Tips, and Updates on Real Estate CRM</h1>
         
-       <div className='  md:ml-52    order-1  grid  grid-cols-1  md:grid-cols-2 ml-4 mr-2   '>
+       <div className='  md:ml-52    order-1  grid  grid-cols-1  md:grid-cols-2 ml-4 mr-2  font-roboto '>
          <div className='order-1'> <h1 className='font-bold text-xl md:text-3xl '>Stay Informed and Ahead in the Real Estate Market with Our Exclusive CRM News and Updates</h1>
-         <p className='my-2 text-xs font-semibold'>Get access to the latest industry trends, expert insights, and updates on how our CRM solutions can enhance your real estate business. Stay informed and take the lead in a competitive market with exclusive content designed to empower your success.
+         <p className='my-2 text-xsfont-roboto'>Get access to the latest industry trends, expert insights, and updates on how our CRM solutions can enhance your real estate business. Stay informed and take the lead in a competitive market with exclusive content designed to empower your success.
          Learn how to optimize your workflows, manage leads efficiently, and close deals faster. Our updates provide actionable tips and strategies to help you stay ahead. Don’t miss out on valuable insights tailored to meet the unique needs of real estate professionals.</p></div>
-        <div className='w-[50%] mx-auto order-2  my-2  md:ml-32    md:my-auto space-y-3 grid  grid-cols-1  '>
+        <div className='w-[50%] mx-auto order-2  my-2  md:ml-32    md:my-auto space-y-3 grid font-roboto  grid-cols-1  '>
 
        <input type="text" placeholder='Full Name' className='md:w-[290px] rounded-md h-[50px] p-2' />
         <input type="email" placeholder='Email' className='md:w-[290px]  rounded-md h-[50px] p-2'/>

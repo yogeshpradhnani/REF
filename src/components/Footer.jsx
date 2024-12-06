@@ -16,7 +16,7 @@ export default function Footer() {
 <p className='my-2 text-xs  md:ml-10 '>Techniajz is the Software Platform for Start-to-end process automation, information management system customized for Real Estate Industry.</p>
 </div>
 <div className='order-2    sm:mx-auto md:ml-40 '>
-    <h1 className='font-bold mt-24 '>Social Media</h1>
+    <h1 className='font-bold mt-24 font-roboto'>Social Media</h1>
   <div className='flex '><a href="https://en-gb.facebook.com/TechniAjz/">
   <img src={facebook} className='my-3 w-[32px] h-[32px]' alt="" /> 
   </a><h1 className='my-auto ml-4 '>Facebook</h1>
