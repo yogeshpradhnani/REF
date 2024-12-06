@@ -14,7 +14,7 @@ function NavBar() {
           <div className="flex-shrink-0 md:ml-20">
             <img className="w-[124px] h-[63.2px]" src={logo} alt="" />
           </div>
-          <div className="hidden md:flex space-x-16 text-lg font-roboto">
+          <div className="hidden md:flex space-x-16 mr-16 text-lg font-roboto">
             <div className="font-bold">
               <button className=" hover:text-gray-900 mt-2">Features</button>
               <ul className="absolute z-1  bg-white hidden   shadow-lg mt-2 rounded-md ">
