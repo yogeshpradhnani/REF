@@ -5,7 +5,7 @@ import './App.css'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Footer from './components/Footer'
-import Flow from './components/Flow'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +15,7 @@ function App() {
     <NavBar />
     <Home />
     <Footer />
-    {/* <Flow /> */}
+
 
     </>
   )

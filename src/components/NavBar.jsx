@@ -8,15 +8,15 @@ function NavBar() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <nav className="w-full   md:overflow-hidden fixed shadow-md bg-white top-0 z-1 ">
-      <div className=" mx-auto   sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0 md:ml-20">
-            <img className="w-[124px] h-[63.2px]" src={logo} alt="" />
+    <nav className="w-full    md:overflow-hidden fixed shadow-md bg-white top-0 z-1 ">
+      <div className=" mx-auto   sm:px-6 lg:px-8 ">
+        <div className="flex items-center justify-between h-16 ">
+          <div className="flex-shrink-0 md:ml-20 ">
+            <img className="w-[124px] h-[63.2px] " src={logo} alt="" />
           </div>
           <div className="hidden md:flex space-x-16 mr-16 text-lg font-roboto">
-            <div className="font-bold">
-              <button className=" hover:text-gray-900 mt-2">Features</button>
+            <div className="font-bold ">
+              <button className=" hover:text-gray-900 mt-2 ">Features</button>
               <ul className="absolute z-1  bg-white hidden   shadow-lg mt-2 rounded-md ">
                 <li>
                   <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 font-bold">
