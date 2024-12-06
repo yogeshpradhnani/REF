@@ -10,7 +10,7 @@ import mail from '../assets/mail.png'
 export default function Footer() {
   return (
     <>
-      <div className='w-full md:h-[400px] overflow-x-hidden md:overflow-x-hidden bg-[rgb(255,242,236)] grid grid-cols-2 justify-between md:grid-cols-5  '>
+      <div className='w-full md:h-[400px] overflow-x-hidden md:overflow-x-hidden bg-[rgb(255,242,236)] grid grid-cols-2 justify-between md:grid-cols-5  font-roboto'>
 <div className='order-1  w-[100%]  ml-1  mt-24 md:mx-auto md:ml-20'>
 <img src={logo} className='w-[220px] h-[112px]  md:mx-auto ' alt="" />
 <p className='my-2 text-xs  md:ml-10 '>Techniajz is the Software Platform for Start-to-end process automation, information management system customized for Real Estate Industry.</p>
