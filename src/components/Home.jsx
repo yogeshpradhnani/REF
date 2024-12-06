@@ -26,7 +26,7 @@ export default function Home() {
  
   return (
     <>
-    <div className='  text-center w-full  mt-[200px] md:mt-0 translate-y-[-150px] font-roboto' >
+    <div className='  text-center w-full  mt-[200px] md:mt-0 translate-y-[-100px] font-roboto' >
     <div className=" ">
         <img className="w-full  "  src={image} alt="Banner" />
         <div className="absolute inset-0 flex flex-col justify-center items-center px-4 md:px-0">
@@ -40,7 +40,7 @@ export default function Home() {
           <p className="text-[13.8px] md:text-base text-black">
             Bring home more deals with the all-in-one real estate CRM platform crafted for your business.
           </p>
-          <button className="text-xl font-bold md:text-xl mt-4 md:my-4 py-1 px-3 bg-[#FD89558C] border-1 border-[#FD8955] rounded-md hover:bg-[#FD8955] transition duration-300">
+          <button className="text-xl font-bold md:text-xl mt-4 md:my-4 py-2 px-3 bg-[#FD89558C] border-1 border-[#FD8955] rounded-md hover:bg-[#FD8955] transition duration-300">
             Get a Demo
           </button>
         </div>
