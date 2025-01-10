@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import URI from "../../config";
 
 export default function Banner() {
   const [data, setData] = useState([]);
@@ -7,7 +8,7 @@ export default function Banner() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios('http://localhost:8080/getSolution');
+        const response = await axios(`${URI}/solution/getSolution`);
         if (response.status !== 200) {
           throw new Error('Failed to fetch data');
         }
@@ -49,7 +50,7 @@ export default function Banner() {
           >
             <img
               className="max-w-[300px] md:w-[450px]"
-              src={`http://localhost:8080/uploads/${item.longImage}`}
+              src={`${URI}/uploads/${item.longImage}`}
               alt={item.title}
             />
           </div>

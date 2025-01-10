@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import Form from "./Form";
 import About from "./About";
+import URI from "../../config";
 
 
 function NavBar() {
@@ -12,12 +13,13 @@ function NavBar() {
   const [isDemoOpen, setIsDemoOpen] = useState(false);
   const [isSolutionOpen, setIsSolutionOpen] = useState(false);
 
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3001/user/getWebData"
- 
-      );
+        
+        
+        const response = await axios.get(`${URI}/user/getWebData`);
         setData(response.data.Data.logo);
       } catch (err) {
         console.error("Error fetching data:", err.message || err);
@@ -30,7 +32,7 @@ function NavBar() {
   useEffect(() => {
     const fetchSolution = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/getSolution");
+        const response = await axios.get(`${URI}/solution/getSolution`);
         if (response.status !== 200) {
           throw new Error("Failed to fetch data");
         }
@@ -56,11 +58,14 @@ function NavBar() {
   };
 
   return (
+
     <nav className="w-full fixed shadow-md bg-white top-0 z-10">
+  
+      
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <img className="w-[124px]" src={`http://localhost:3001/${data}`} alt="Logo" />
+            <img className="w-[124px]" src={`${URI}/${data}`} alt="Logo" />
           </div>
           <div className="hidden md:flex md:space-x-8 lg:space-x-12 text-lg font-semibold">
             <button className="hover:text-gray-900">Features</button>

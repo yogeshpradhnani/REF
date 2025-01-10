@@ -1,15 +1,8 @@
 import React, { useState } from 'react'
-import image from '../assets/image.png'
+
+import config from '../config.js'
 
 
-import right from '../assets/right.png'
-import barChart from '../assets/barChart.png'
-import report from '../assets/report.png'
-import target from '../assets/target.png'
-
-
-import Polygon from '../assets/Polygon.png'
-import Domain from '../assets/Domain.png'
 
 import Form from "./Form";
 import Card from './Card'
@@ -57,7 +50,7 @@ export default function Home() {
         </div>
       )}
     </div>
-          <img className="w-full  "  src={image} alt="Banner" />
+          <img className="w-full  "  src={config.logo} alt="Banner" />
  
       </div>
       </div>
@@ -76,24 +69,24 @@ export default function Home() {
             <p className='text-xs text-center ml-2 my-2 sm:ml-2 lg:ml-0 mr-2 lg:mr-0 '>Streamline your lead management and sales processes to improve efficiency, drive growth, and enhance client relationships in real estate.</p>
           
           </div>
-          <div className='md:my-auto md:mb-20 mx-auto   md:order-2   rotate-90 md:rotate-0 '><img src={right} alt="" srcset="" />
+          <div className='md:my-auto md:mb-20 mx-auto   md:order-2   rotate-90 md:rotate-0 '><img src={config.right} alt="" srcset="" />
           </div>
         <div className='  md:order-3  mx-auto my-0'>
-          <img src={barChart} className='mx-auto font-roboto' alt="" srcset="" />
+          <img src={config.barChart} className='mx-auto font-roboto' alt="" srcset="" />
             <h1 className='text-center  font-bold  md:text-lg lg:text-lg'> Boost Sales with CRM </h1>
             <p className='text-xs text-center my-2'>Achieve Greater Sales with CRM Integration</p>
           
           </div>
-          <div className='md:my-auto md:mb-20 mx-auto   md:order-4   rotate-90 md:rotate-0'><img src={right} alt="" srcset="" /></div>
+          <div className='md:my-auto md:mb-20 mx-auto   md:order-4   rotate-90 md:rotate-0'><img src={config.right} alt="" srcset="" /></div>
         <div className='   md:order-5 font-roboto'>
-          <img className='mx-auto' src={report} alt="" />
+          <img className='mx-auto' src={config.report} alt="" />
             <h2 className='text-center mx-auto font-bold    md:text-lg lg:text-lg'> Lead Management Made Easy</h2>
             <p className='text-xs text-center my-2'>Easily Organize and Manage Your Leads</p>
           
           </div>
-          <div className=' md:my-auto md:mb-20 mx-auto   md:order-6  rotate-90 md:rotate-0  '><img src={right} alt="" srcset="" /></div>
+          <div className=' md:my-auto md:mb-20 mx-auto   md:order-6  rotate-90 md:rotate-0  '><img src={config.right} alt="" srcset="" /></div>
         <div className=' md:order-7  font-roboto'>
-    <img className='mx-auto ' src={target} alt="" /> 
+    <img className='mx-auto ' src={config.target} alt="" /> 
             <h1 className='text-center mx-auto font-bold md:text-lg lg:text-lg '> Streamline Your Lead Pipeline</h1>
             <p className='text-xs text-center my-2'>Efficiently Manage and Streamline Leads </p>
           </div>
@@ -105,7 +98,7 @@ export default function Home() {
         <div className=' my-10  md:my-auto '>   
         <div className='  order-1  flex ml-5 sm:ml-16 lg:ml-36'>
       <div className='  my-auto'>
-      <img className='w-[72px] h-[72px]  ' src={Polygon} alt="" srcset="" /></div>
+      <img className='w-[72px] h-[72px]  ' src={config.Polygon} alt="" srcset="" /></div>
       <p className='mt-4 sm:ml-5   ml-5  text-[#F1C27C] mr-2 md:mr-0'>Revolutionize Your Workflow</p>
       </div>
        <div className=' lg:ml-24  ml-5 font-roboto  '>
@@ -115,7 +108,7 @@ export default function Home() {
         </div>
         <div className='   order-2 lg:my-5  lg:ml-24   my-auto ' >
          <div className='flex ml-5 mr-2 md:mt-20 lg:mt-8 md:ml-0 font-roboto'>
-         <img src={Domain} alt="" srcset="" />
+         <img src={config.Domain} alt="" srcset="" />
          <h1 className='my-auto ml-5 sm:ml-5 text-[#F1C27C]'>Simplify Real Estate Operations</h1>
        
          </div>

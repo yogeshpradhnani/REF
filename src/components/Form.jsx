@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import URI from "../../config";
 
 const Form = ({ onClose }) => {
   const [formData, setFormData] = useState({
@@ -24,7 +25,7 @@ const Form = ({ onClose }) => {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8080/register/", {
+      const response = await fetch(`${URI}/register/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -1,9 +1,8 @@
 import React from 'react'
 import NavBar from './NavBar'
 import Suscribe from './Suscribe'
-import about from '../assets/about.png'
-import story from '../assets/story.png'
-import vision from '../assets/vision.png'
+
+import config from '../config'
 
 function About() {
   return (
@@ -15,7 +14,7 @@ function About() {
             With years of experience in the real estate and technology sectors, we understand the unique challenges you face. From project management and lead tracking to seamless integrations and data insights, our platform is designed to provide you with the tools you need to stay ahead in a competitive market.</p>
              </div>
              <div className='  order-2  md:my-auto '>
-                <img className='w-[291px] md:w-[391px]  mx-auto  my-4 md:my-auto' src={about} alt="" srcset="" />
+                <img className='w-[291px] md:w-[391px]  mx-auto  my-4 md:my-auto' src={config.about} alt="" srcset="" />
              </div>
            </div>
        <div className='mt-3  md:h-[479px] bg-[#FFFFFF] grid grid-cols-1  md:grid-cols-2  md:mt-0   '>
@@ -31,7 +30,7 @@ function About() {
 Join the thousands of professionals who trust Techniajz to transform their real estate business into a seamless and profitable operation. Let’s build success together.</p>
              </div>
              <div className='order-2  md:order-1  md:my-auto '>
-                <img className='w-[291px] md:w-[391px]  mx-auto  my-4 md:my-auto' src={vision} alt="" srcset="" />
+                <img className='w-[291px] md:w-[391px]  mx-auto  my-4 md:my-auto' src={config.vision} alt="" srcset="" />
              </div>
            </div>
        <div className='my-3  md:h-[479px] bg-[#FFFFFF] grid grid-cols-1  md:grid-cols-2  md:my-0   '>
@@ -42,7 +41,7 @@ What started as a small project has now grown into a comprehensive CRM software 
 With [Your CRM Software Name], you're not just getting software—you're gaining a partner dedicated to your success.</p>
              </div>
              <div className='  order-2  md:my-auto '>
-                <img className='w-[291px] md:w-[391px] mx-auto my-4 md:my-auto' src={story} alt="" srcset="" />
+                <img className='w-[291px] md:w-[391px] mx-auto my-4 md:my-auto' src={config.story} alt="" srcset="" />
              </div>
            </div>
     <Suscribe />
